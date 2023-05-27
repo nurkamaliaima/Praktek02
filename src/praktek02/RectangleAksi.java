@@ -1,4 +1,4 @@
-package praktek02;
+ package praktek02;
 
 public class RectangleAksi {
     public static void main(String[] args) {
@@ -7,5 +7,7 @@ public class RectangleAksi {
         rl.lebar = 3;
         
         rl.cetakinfo();
+        System.out.println("Luas rectangle = "+rl.hitungLuas());
     }
+    
 }
